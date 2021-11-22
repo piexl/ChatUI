@@ -1,5 +1,5 @@
 {
-  "name": "@chatui/core",
+  "name": "@kermityu/chatui",
   "version": "1.2.2",
   "description": "The React library for Chatbot UI",
   "main": "lib/index.js",
@@ -101,11 +101,11 @@
   ],
   "homepage": "https://chatui.io/",
   "bugs": {
-    "url": "https://github.com/alibaba/ChatUI/issues"
+    "url": "https://github.com/piexl/chatui.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ChatUI"
+    "url": "https://github.com/piexl/chatui.git/ChatUI"
   },
   "author": "akai <akainice@gmail.com>",
   "license": "MIT"
