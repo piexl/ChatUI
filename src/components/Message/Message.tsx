@@ -54,7 +54,7 @@ export interface MessageProps {
   /**
    * 方便扩展其他属性
    */
-  [prop: string]: any;
+  extend?: any;
 }
 
 const Message = (props: MessageProps) => {
