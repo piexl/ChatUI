@@ -45,18 +45,18 @@ English | [简体中文](./README.zh-CN.md)
 ## Install
 
 ```bash
-npm install @chatui/core --save
+npm install kermityu_chatui --save
 ```
 
 ```bash
-yarn add @chatui/core
+yarn add kermityu_chatui
 ```
 
 ## Usage
 
 ```jsx
-import Chat, { Bubble, useMessages } from '@chatui/core';
-import '@chatui/core/dist/index.css';
+import Chat, { Bubble, useMessages } from 'kermityu_chatui';
+import 'kermityu_chatui/dist/index.css';
 
 const App = () => {
   const { messages, appendMsg, setTyping } = useMessages([]);

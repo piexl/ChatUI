@@ -49,18 +49,18 @@ _此项目完全拷贝自[ChatUI(v1.2.2)](https://chatui.io/), 只是在文件`s
 ## 安装
 
 ```bash
-npm install @chatui/core --save
+npm install kermityu_chatui --save
 ```
 
 ```bash
-yarn add @chatui/core
+yarn add kermityu_chatui
 ```
 
 ## 示例
 
 ```jsx
-import Chat, { Bubble, useMessages } from '@chatui/core';
-import '@chatui/core/dist/index.css';
+import Chat, { Bubble, useMessages } from 'kermityu_chatui';
+import 'kermityu_chatui/dist/index.css';
 
 const App = () => {
   const { messages, appendMsg, setTyping } = useMessages([]);
