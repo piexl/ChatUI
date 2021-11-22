@@ -4,6 +4,10 @@
   </a>
 </h1>
 
+___特别说明___
+_此项目完全拷贝自[ChatUI](https://chatui.io/), 只是在文件`src/components/Message/Message.tsx`中的类型定义`MessageProps`中增加`extend?: any`进行消息其他信息扩展_
+
+
 <p align="center">服务于对话领域的设计和开发体系</p>
 
 <p align="center">官网：<a href="https://chatui.io/" target="_blank">https://chatui.io</a></p>
