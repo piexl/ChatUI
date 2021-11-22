@@ -51,6 +51,10 @@ export interface MessageProps {
    * 消息内容渲染函数
    */
   renderMessageContent?: (message: MessageProps) => React.ReactNode;
+  /**
+   * 方便扩展其他属性
+   */
+  [prop: string]: any;
 }
 
 const Message = (props: MessageProps) => {
